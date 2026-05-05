@@ -16,8 +16,7 @@ This web portfolio showcases my skills, projects, and experiences as a web devel
 - **JavaScript**: For interactive elements
 
 ## Live Demo
-You can view the live demo of this portfolio at: [Live Demo](https://example.com)  
-*(Replace with actual demo link)*
+You can view the live demo of this portfolio at: [Live Demo](https://jakelee111.github.io/web-portfolio/)  
 
 ## Local Setup
 To set up this project locally, follow these steps:
