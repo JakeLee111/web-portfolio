@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body >
+        <header class="header">
+            <a href="#home" class="logo">
+                Jake <span>Lee</span>   
+            </a>
+
+            <i class="bx bx-menu" id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+            </nav>
+
+            <button class="gradient-btn" onclick="location.href='#contact'">Contact Me</button>
+        </header>
+
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>Hi, It's <span>Jake</span></h1>
+                <h3>
+                    I'm a <span>AI/Data Engineer</span>
+                </h3>
+                <p>I’m a Computer Science student passionate about solving 
+                    real-world problems through code. I’ve built projects 
+                    ranging from a movie recommendation system using Python, 
+                    Scikit-learn, and FastAPI to an Automated Course Assignment Tool
+                    in Java. With a proven track record in leadership, ability to 
+                    learn quickly, adapt, and deliver results, I'm eager to 
+                    tackle new challenges in the tech industry.
+                </p>
+                <div class="social-icon">
+                    <a href="https://github.com/JakeLee111">
+                        <i class="bx bxl-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/jakelee11/">
+                        <i class="bx bxl-linkedin"></i>
+                    </a>
+
+                    <a href="https://www.tiktok.com/@jake.lee992">
+                        <i class="bx bxl-tiktok"></i>
+                    </a>
+                </div>
+
+                <div class="btn-group">
+                    <a href="contact" class="btn">Contact</a>
+                    <a href="https://drive.google.com/file/d/1t4z_e-wjaFp5Q4rRnbRVWZ2tFZjiwxIl/view?usp=sharing" class="btn">Resume</a>
+                </div>
+            </div>
+            <div class="home-img">
+                    <img src="profilephoto.jpeg" alt="">
+                </div>
+        </section>
+
+        <section class="about" id="about">
+
+    <div class="about-img">
+        <img src="profilephoto.jpeg" alt="">
+    </div>
+
+    <div class="about-content">
+        <h2>About <span>Me</span></h2>
+
+        <div class="about-grid">
+
+            <div class="about-box">
+                <h3>Education</h3>
+                <p>
+                    Stamford International University, Bangkok
+                    <br>Computer Science and Engineering
+                    
+                </p>
+                <h4>GPA: 3.9 / 4.0</h4>
+            </div>
+
+            <div class="about-box">
+                <h3>Technical Skills</h3>
+                <p>
+                    <b>Languages:</b> Python, Java, SQL<br>
+                    <b>Data & AI:</b> Pandas, NumPy, Scikit-learn, ML<br>
+                    <b>Frontend:</b> React, HTML, CSS<br>
+                    <b>Backend:</b> Node.js, FastAPI<br>
+                    <b>Databases:</b> MySQL, MongoDB<br>
+                    <b>Tools:</b> Git, Jupyter, Colab
+                </p>
+            </div>
+
+            <div class="about-box">
+                <h3>Certifications</h3>
+                <p>
+                    <a href="https://certificates.cs50.io/8178474d-6f0a-4f76-84ae-6b0a9bb8f499.pdf?size=letter" target="_blank" title="View certificate">Harvard CS50 (Python)</a><br>
+                    <a href="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~69D5PJBRFZ5P/CERTIFICATE_LANDING_PAGE~69D5PJBRFZ5P.jpeg" target="_blank" title="View certificate">Google Data Analytics</a>             
+                </p>
+            </div>
+
+            <div class="about-box">
+                <h3>Achievements</h3>
+                <p>
+                    <a href="https://drive.google.com/file/d/1PkQPN2Itk0cvbz9uO3vmdqDKS8ovnpIW/view?usp=sharing" target="_blank" title="View certificate">
+                        1st Place – Public Speaking (2025)</a><br>
+                    <a href="https://drive.google.com/file/d/1m8WK0HFWaQGiNUeJIb-zOqZy3P0S_u2I/view?usp=sharing" target="_blank" title="View certificate">Exceptional Leadership (2025)<br></a>
+                    <a href="https://drive.google.com/file/d/1r0NZbYwLt_Celh35twxDFdq4rs_1ffeB/view?usp=sharing" target="_blank" title="View certificate">Leadership Award (2025)<br></a>
+                    <a href="https://drive.google.com/file/d/10_HzqG5jSuvN4FBIznsKklAbOZjzdFAy/view?usp=sharing" target="_blank" title="View certificate">Mentorship Award (2025)<br></a>
+                    Outstanding Contribution – Expedia Group(2024)
+                </p>
+            </div>
+
+        </div>
+
+        <a href="#projects" class="btn">Read More</a>
+
+    </div>
+
+</section>
+
+        <section class="projects" id="projects">
+            <h2 class="heading">Projects</h2>
+            <div class="project-box">
+                <div class="project-card">
+                    <img src="demo.png" height="300px" width="300px" alt="">
+                    <h3>Movie Recommender</h3>
+                    <p> A modern full-stack machine learning web 
+                        application that recommends movies based 
+                        on similarity and user search input.</p>
+                    <a href="https://github.com/JakeLee111/Movie-Recommender-Full-Stack-ML-App" class="btn">Review Project</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="demo2.png" height="300px" width="300px" alt="">
+                    <h3>University Registration System</h3>
+                    <p> Manage user registration and roles 
+                        efficiently. It allows users to create 
+                        accounts, log in, and manage profiles...</p>
+                    <a href="https://github.com/JakeLee111/University_Registration_System" class="btn">Review Project</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="demo3.png" height="300px" width="300px" alt="">
+                    <h3>Flappy Bird</h3>
+                    <p> A simple recreation of the classic 
+                        Flappy Bird game built using Python 
+                        and Pygame.</p>
+                    <a href="https://github.com/JakeLee111/Flappy_bird_Pygame" class="btn">Review Project</a>
+                </div>
+
+            </div>
+        </section>
+        <!-- Hide this for now 
+        <section class="experience" id="experience">
+            <h2 class="heading">Experience</h2>
+            <div class="experience-container">
+                <div class="experience-box">
+                    <div class="experience-info">
+                        <i class="bx bxl-python"></i>
+                        <h4>Movie Recommender Full Stack ML</h4>
+                        <p>Description</p>
+                    </div>
+                </div>
+
+                <div class="experience-box">
+                    <div class="experience-info">
+                        <i class="bx bx-code-curly"></i>
+                        <h4>Flappy-Bird Pygame</h4>
+                        <p>Description</p>
+                    </div>
+                </div>
+
+                <div class="experience-box">
+                    <div class="experience-info">
+                        <i class="bx bxl-java"></i>
+                        <h4>University Registration System</h4>
+                        <p>Description</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        -->
+
+        <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <!-- The action and method are already correct for Formspree -->
+    <form action="https://formspree.io/f/mlgzbonk" method="POST">
+        <div class="input-group">
+            <div class="input-box">
+                <!-- Added name="name" -->
+                <input type="text" name="name" placeholder="Full Name" required>
+                <!-- Added name="email" -->
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="input-group"></div>
+
+            <div class="input-box">
+                <!-- Added name="phone" -->
+                <input type="number" name="phone" placeholder="Phone Number">
+                <!-- Added name="subject" -->
+                <input type="text" name="subject" placeholder="Subject">
+            </div>
+            <div class="input-group"></div>
+        </div>
+
+        <div class="input-group2">
+            <!-- Added name="message" -->
+            <textarea name="message" id="" placeholder="Your Message" cols="30" rows="10" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </div>
+    </form>
+</section>
+
+        
+
+        <footer class="footer">
+            <div class="social-icon">
+                <a href="https://github.com/JakeLee111">
+                    <i class="bx bxl-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/jakelee11/">
+                    <i class="bx bxl-linkedin"></i>
+                </a>
+
+                <a href="https://www.tiktok.com/@jake.lee992">
+                    <i class="bx bxl-tiktok"></i>
+                </a>
+            </div>
+
+            <ul class="list">
+
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <!-- Hide this for now 
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+                -->
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+                <p class="copyright">
+                    © Jake Lee | All Rights Reserved
+                </p>
+            </ul>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
